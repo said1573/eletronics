@@ -1,6 +1,10 @@
-from django.shortcuts import render
+from django.http import JsonResponse
+from django.shortcuts import render, redirect
 
 # Create your views here.
+from django.utils import timezone
+
+from app.models import Member
 
 
 def calendar(request):
@@ -64,16 +68,6 @@ def inbox(request):
 def index(request):
     return render(request, 'app/index.html', {})
 
-def index2(request):
-    return render(request, 'app/index2.html', {})
-
-
-
-
-
-def index3(request):
-    return render(request, 'app/index3.html', {})
-
 def invoice(request):
     return render(request, 'app/invoice.html', {})
 
@@ -81,10 +75,20 @@ def level2(request):
     return render(request, 'app/level2.html', {})
 
 def login(request):
-    return render(request, 'app/login.html', {})
-
-def map(request):
-    return render(request, 'app/map.html', {})
+    if request.method == 'GET':
+        return render(request, 'app/login.html', {})
+    else:
+        user_id = request.POST['user_id']
+        user_pw = request.POST['user_pw']
+        result_dict = {}
+        print(user_id)
+        try:
+            Member.objects.get(user_id=user_id, user_pw=user_pw)
+            result_dict['result'] = 'success'
+            request.session['user_id'] = user_id
+        except Member.DoesNotExist:
+            result_dict['result'] = 'fail'
+        return JsonResponse(result_dict)
 
 def media_gallery(request):
     return render(request, 'app/media_gallery.html', {})
@@ -142,4 +146,44 @@ def widgets(request):
 def xx(request):
     return render(request, 'app/xx.html', {})
 
+def register(request):
+    if request.method == 'GET':
+        return render(request, 'app/register.html', {})
+    else:
+        result_dict = {}
+        user_id = request.POST['user_id']
+        user_pw = request.POST['user_pw']
+        user_pw_confirm = request.POST['user_pw_confirm']
+        user_name = request.POST['user_name']
+        user_phone = request.POST['user_phone']
 
+        if user_id == '' or user_pw == '' or user_pw_confirm == '' or user_name == '' or user_phone == '':
+            result_dict['result'] = '공백은 사용할 수 없습니다.'
+            return JsonResponse(result_dict)
+
+        elif user_pw != user_pw_confirm:
+            result_dict['result'] = '비밀번호 매치 실패'
+            return JsonResponse(result_dict)
+
+        else:
+            try:
+                Member.objects.get(user_id=user_id)
+                result_dict['result'] = '이미 가입된 아이디가 있습니다.'
+            except Member.DoesNotExist:
+                member = Member(user_id=user_id, user_pw=user_pw, user_name=user_name, user_phone=user_phone,
+                                )
+                member.save()
+                result_dict['result'] = 'success'
+            return JsonResponse(result_dict)
+
+
+def mypage(request):
+    return render(request, 'app/mypage.html', {})
+
+def logout(request):
+    try:
+        del request.session['user_role']
+        del request.session['user_id']
+        return redirect('login')
+    except:
+        return render(request, 'app/login.html', {})

@@ -39,13 +39,13 @@ urlpatterns = [
     path('icons/', views.icons, name='icons'),
     path('inbox/', views.inbox, name='inbox'),
     path('index/', views.index, name='index'),
-    path('index2/', views.index2, name='index2'),
 
-    path('index3/', views.index3, name='index3'),
+
+
     path('invoice/', views.invoice, name='invoice'),
     path('level2/', views.level2, name='level2'),
-    path('login/', views.login, name='login'),
-    path('map/', views.map, name='map'),
+    path('', views.login, name='login'),
+
     path('media_gallery/', views.media_gallery, name='media_gallery'),
     path('morisjs/', views.morisjs, name='morisjs'),
     path('other_charts/', views.other_charts, name='other_charts'),
@@ -64,4 +64,7 @@ urlpatterns = [
     path('widgets/', views.widgets, name='widgets'),
 
     path('xx/', views.xx, name='xx'),
+    path('register/', views.register, name='register'),
+    path('mypage/', views.mypage, name='mypage'),
+    path('logout/', views.logout, name='logout')
 ]

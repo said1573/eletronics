@@ -34,16 +34,16 @@
                 <form method="post">
                     <h1>Login Form</h1>
                     <div>
-                        <input type="text" name="user_id" class="form-control" placeholder="Username" required=""/>
+                        <input type="text" name="user_id" id="user_id" class="form-control" placeholder="Username" required=""/>
                     </div>
                     <div>
-                        <input type="password" name="user_pw" class="form-control" placeholder="Password" required=""/>
+                        <input type="password" name="user_pw" id="user_pw" class="form-control" placeholder="Password" required=""/>
                     </div>
                     <div>
                         <a class="btn btn-default submit" id="login">Log in</a>
                     </div>
                     <div style="text-align:center;"><br/>
-                        <a href="{% url 'mypage' %}">Lost your password?</a>
+                        <a href="{% url 'change' %}">Lost your password?</a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -69,16 +69,21 @@
             data: $('form').serialize(),
             success: function(res) {
                 if(res.result == 'success') {
-                    alert(res.result)
                     location = '/index/'
-                }else{
-                    alert(res.result)
-                    }
+                }
                 return false;
                 }
             });
         return false;
     });
+
+var input = document.getElementById("user_pw");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("login").click();
+    }
+});
 
 </script>
 </html>

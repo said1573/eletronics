@@ -3,76 +3,16 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from django.utils import timezone
+from django.views.decorators.csrf import csrf_exempt
 
-from app.models import Member
+from app.models import Member, Casend, Bsend
 
-
-def calendar(request):
-    return render(request, 'app/calendar.html', {})
-
-def chartjs(request):
-    return render(request, 'app/chartjs.html', {})
-
-def chartjs2(request):
-    return render(request, 'app/chartjs2.html', {})
-
-def contacts(request):
-    return render(request, 'app/contacts.html', {})
-
-def e_commerce(request):
-    return render(request, 'app/e_commerce.html', {})
-
-def echarts(request):
-    return render(request, 'app/echarts.html', {})
-
-def fixed_footer(request):
-    return render(request, 'app/fixed_footer.html', {})
-
-def fixed_sidebar(request):
-    return render(request, 'app/fixed_sidebar.html', {})
-
-def form(request):
-    return render(request, 'app/form.html', {})
-
-def form_advanced(request):
-    return render(request, 'app/form_advanced.html', {})
-
-
-
-
-
-def form_buttons(request):
-    return render(request, 'app/form_buttons.html', {})
-
-def form_upload(request):
-    return render(request, 'app/form_upload.html', {})
-
-def form_validation(request):
-    return render(request, 'app/form_validation.html', {})
-
-def form_wizards(request):
-    return render(request, 'app/form_wizards.html', {})
-
-def general_elements(request):
-    return render(request, 'app/general_elements.html', {})
-
-def glyphicons(request):
-    return render(request, 'app/glyphicons.html', {})
-
-def icons(request):
-    return render(request, 'app/icons.html', {})
-
-def inbox(request):
-    return render(request, 'app/inbox.html', {})
 
 def index(request):
-    return render(request, 'app/index.html', {})
+    user_id = request.session['user_id']
+    member = Member.objects.get(user_id=user_id)
 
-def invoice(request):
-    return render(request, 'app/invoice.html', {})
-
-def level2(request):
-    return render(request, 'app/level2.html', {})
+    return render(request, 'app/index.html', {'member': member})
 
 def login(request):
     if request.method == 'GET':
@@ -81,7 +21,6 @@ def login(request):
         user_id = request.POST['user_id']
         user_pw = request.POST['user_pw']
         result_dict = {}
-        print(user_id)
         try:
             Member.objects.get(user_id=user_id, user_pw=user_pw)
             result_dict['result'] = 'success'
@@ -90,61 +29,6 @@ def login(request):
             result_dict['result'] = 'fail'
         return JsonResponse(result_dict)
 
-def media_gallery(request):
-    return render(request, 'app/media_gallery.html', {})
-
-def morisjs(request):
-    return render(request, 'app/morisjs.html', {})
-
-def other_charts(request):
-    return render(request, 'app/other_charts.html', {})
-
-def page_403(request):
-    return render(request, 'app/page_403.html', {})
-
-def page_404(request):
-    return render(request, 'app/page_404.html', {})
-
-
-
-
-
-def page_500(request):
-    return render(request, 'app/page_500.html', {})
-
-def plain_page(request):
-    return render(request, 'app/plain_page.html', {})
-
-def pricing_tables(request):
-    return render(request, 'app/pricing_tables.html', {})
-
-def profile(request):
-    return render(request, 'app/profile.html', {})
-
-def project_detail(request):
-    return render(request, 'app/project_detail.html', {})
-
-def projects(request):
-    return render(request, 'app/projects.html', {})
-
-def tables(request):
-    return render(request, 'app/tables.html', {})
-
-def tables_dynamic(request):
-    return render(request, 'app/tables_dynamic.html', {})
-
-def typography(request):
-    return render(request, 'app/typography.html', {})
-
-def widgets(request):
-    return render(request, 'app/widgets.html', {})
-
-
-
-
-
-def xx(request):
-    return render(request, 'app/xx.html', {})
 
 def register(request):
     if request.method == 'GET':
@@ -177,8 +61,10 @@ def register(request):
             return JsonResponse(result_dict)
 
 
-def mypage(request):
-    return render(request, 'app/mypage.html', {})
+def change(request):
+    user_id = request.session['user_id']
+    member = Member.objects.get(user_id=user_id)
+    return render(request, 'app/change.html', {'member': member})
 
 def logout(request):
     try:
@@ -187,3 +73,99 @@ def logout(request):
         return redirect('login')
     except:
         return render(request, 'app/login.html', {})
+
+def mypage(request):
+    user_id = request.session['user_id']
+    member = Member.objects.get(user_id=user_id)
+
+    return render(request, 'app/mypage.html', {'member': member})
+
+@csrf_exempt
+def all_message(request):
+    try:
+        user_id = request.session['user_id']
+        member = Member.objects.get(user_id=user_id)
+
+        casend = Casend.objects.all()
+        context = {
+            'casend': casend,
+            'member': member,
+        }
+
+        return render(request, 'app/all_message.html', context)
+
+    except Exception as e:
+        print(e)
+        return redirect('all_message')
+
+
+def send(request):
+
+    user_id = request.session['user_id']
+    member = Member.objects.get(user_id=user_id)
+
+    return render(request, 'app/send.html', {'member': member})
+
+
+def casend(request):
+    if request.method == 'GET':
+        return render(request, 'app/casend.html', {})
+    else:
+        result_dict = {}
+        address = request.POST['address']
+        date = request.POST['date']
+        price = request.POST['price']
+        ele = request.POST['ele']
+
+        if address == '' or date == '' or price == '' or ele == '':
+            result_dict['result'] = '공백은 사용할 수 없습니다.'
+            return JsonResponse(result_dict)
+
+        else:
+            try:
+                user_id = request.session['user_id']
+                casend = Casend(address=address, date=date, price=price, ele=ele, user_id_id=user_id
+                                )
+                casend.save()
+                result_dict['result'] = 'success'
+            except Exception as e:
+                print(e)
+
+            return JsonResponse(result_dict)
+
+
+
+
+def bsend(request):
+    if request.method == 'GET':
+        return render(request, 'app/bsend.html', {})
+    else:
+        result_dict = {}
+        address2 = request.POST['address2']
+        date2 = request.POST['date2']
+        price2 = request.POST['price2']
+        ele2 = request.POST['ele2']
+
+        if address2 == '' or date2 == '' or price2 == '' or ele2 == '':
+            result_dict['result'] = '공백은 사용할 수 없습니다.'
+            return JsonResponse(result_dict)
+
+        else:
+            try:
+                user_id = request.session['user_id']
+                bsend = Bsend(address2=address2, date2=date2, price2=price2, ele2=ele2, user_id_id=user_id
+                                )
+                bsend.save()
+                result_dict['result'] = 'success'
+            except Exception as e:
+                print(e)
+
+            return JsonResponse(result_dict)
+
+def contact(request):
+    if request.method == 'GET':
+        return render(request, 'app/contact.html', {})
+
+    else:
+
+        return render(request, 'app/contact.html', {})

@@ -32,7 +32,6 @@
     <link href="{% static 'app/build/css/custom.min.css' %}" rel="stylesheet">
 </head>
 
-
 <body class="nav-md">
 <div class="container body">
     <div class="main_container">
@@ -43,15 +42,21 @@
                 </div>
 
                 <div class="clearfix"></div>
+
                 <!-- menu profile quick info -->
                 <div class="profile clearfix">
-                    <div class="profile_pic"></div>
+                    <div class="profile_pic">
+
+                    </div>
                     <div class="profile_info">
+
                         <h2>{{ member.user_id }}</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
+
                 <br/>
+
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
@@ -59,13 +64,15 @@
                             <li><a href="{% url 'index' %}"><i class="fa fa-home"></i> 홈</a></li>
                             <li><a href="{% url 'mypage' %}"><i class="fa fa-edit"></i> 마이페이지</a></li>
                             <li><a href="{% url 'send' %}"><i class="fa fa-comment"></i> 요청하기</a></li>
-                            <li><a id="all_message" href="{% url 'all_message' %}"><i class="fa fa-clone"></i>전체 메시지 확인</a></li>
-                            <li><a href="{% url 'logout' %}"><i class="glyphicon glyphicon-off"></i>&nbsp Logout</a>
-                            </li>
+                            <li><a href="{% url 'all_message' %}"><i class="fa fa-clone"></i>전체 메시지 확인</a></li>
+                            <li><a href="{% url 'logout' %}"><i class="glyphicon glyphicon-off"></i>&nbsp Logout</a></li>
+
                         </ul>
                     </div>
+
                 </div>
                 <!-- /sidebar menu -->
+
             </div>
         </div>
 
@@ -116,18 +123,170 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+            <!-- top tiles -->
+            <div class="row tile_count">
+            </div>
+            <!-- /top tiles -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="dashboard_graph">
+
+                        <div class="row x_title">
+                            <div class="col-md-6">
+                                <h3>Network Activities</h3>
+                            </div>
+                            <div class="col-md-6">
+                                <div id="reportrange" class="pull-right"
+                                     style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                                    <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div id="chart_plot_01" class="demo-placeholder"></div>
+                        </div>
+
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            </div>
+            <br/>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Daily Weather</h2>
+                            <h2>Recent Activities
+                                <small>Sessions</small>
+                            </h2>
                             <ul class="nav navbar-right panel_toolbox">
-                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Settings 1</a>
+                                        </li>
+                                        <li><a href="#">Settings 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                </li>
                             </ul>
                             <div class="clearfix"></div>
                         </div>
+                        <div class="x_content">
+                            <div class="dashboard-widget-content">
 
+                                <ul class="list-unstyled timeline widget">
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
+                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
+                                                </div>
+                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie
+                                                    makers. They were where you met the producers that could fund your
+                                                    project, and if the buyers liked your flick, they’d pay to
+                                                    Fast-forward and… <a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
+                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
+                                                </div>
+                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie
+                                                    makers. They were where you met the producers that could fund your
+                                                    project, and if the buyers liked your flick, they’d pay to
+                                                    Fast-forward and… <a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
+                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
+                                                </div>
+                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie
+                                                    makers. They were where you met the producers that could fund your
+                                                    project, and if the buyers liked your flick, they’d pay to
+                                                    Fast-forward and… <a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
+                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
+                                                </div>
+                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie
+                                                    makers. They were where you met the producers that could fund your
+                                                    project, and if the buyers liked your flick, they’d pay to
+                                                    Fast-forward and… <a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <!-- start of weather widget -->
+                <div class="col-md-12">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h2>Daily active users
+                                <small>Sessions</small>
+                            </h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Settings 1</a>
+                                        </li>
+                                        <li><a href="#">Settings 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
                         <div class="x_content">
                             <div class="row">
                                 <div class="col-sm-12">
@@ -162,7 +321,6 @@
                                     <div class="daily-weather">
                                         <h2 class="day">Mon</h2>
                                         <h3 class="degrees">25</h3>
-
                                         <canvas id="clear-day" width="32" height="32"></canvas>
                                         <h5>15 <i>km/h</i></h5>
                                     </div>
@@ -213,106 +371,6 @@
                     </div>
                 </div>
                 <!-- end of weather widget -->
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>최근 활동 기록</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-
-                            <div class="x_content">
-                                <div class="dashboard-widget-content">
-
-                                    <ul class="list-unstyled timeline widget">
-                                        <li>
-                                            <div class="block">
-                                                <div class="block_content">
-                                                    <h2 class="title">
-                                                        <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                    </h2>
-                                                    <div class="byline">
-                                                        <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                    </div>
-                                                    <p class="excerpt">Film festivals used to be do-or-die moments for
-                                                        movie
-                                                        makers. They were where you met the producers that could fund
-                                                        your
-                                                        project, and if the buyers liked your flick, they’d pay to
-                                                        Fast-forward and… <a>Read&nbsp;More</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="block">
-                                                <div class="block_content">
-                                                    <h2 class="title">
-                                                        <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                    </h2>
-                                                    <div class="byline">
-                                                        <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                    </div>
-                                                    <p class="excerpt">Film festivals used to be do-or-die moments for
-                                                        movie
-                                                        makers. They were where you met the producers that could fund
-                                                        your
-                                                        project, and if the buyers liked your flick, they’d pay to
-                                                        Fast-forward and… <a>Read&nbsp;More</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="block">
-                                                <div class="block_content">
-                                                    <h2 class="title">
-                                                        <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                    </h2>
-                                                    <div class="byline">
-                                                        <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                    </div>
-                                                    <p class="excerpt">Film festivals used to be do-or-die moments for
-                                                        movie
-                                                        makers. They were where you met the producers that could fund
-                                                        your
-                                                        project, and if the buyers liked your flick, they’d pay to
-                                                        Fast-forward and… <a>Read&nbsp;More</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="block">
-                                                <div class="block_content">
-                                                    <h2 class="title">
-                                                        <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                    </h2>
-                                                    <div class="byline">
-                                                        <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                    </div>
-                                                    <p class="excerpt">Film festivals used to be do-or-die moments for
-                                                        movie
-                                                        makers. They were where you met the producers that could fund
-                                                        your
-                                                        project, and if the buyers liked your flick, they’d pay to
-                                                        Fast-forward and… <a>Read&nbsp;More</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-{% csrf_token %}
-
             </div>
         </div>
     </div>
@@ -360,15 +418,6 @@
 
 <!-- Custom Theme Scripts -->
 <script src="{% static 'app/build/js/custom.min.js' %}"></script>
-
-
-<!-- 따라다니는 사이드바 시작 -->
-<script>
-
-
-
-</script>
-
+{% csrf_token %}
 </body>
-
 </html>

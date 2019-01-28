@@ -2,30 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30875214-72fe-4559-83b1-a3f3a140ddb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/app/mypage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/all_message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/send.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/vendors/Chart.js/samples/AnimationCallbacks/progress-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/app/vendors/Chart.js/samples/AnimationCallbacks/progress-bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/fixed_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/fixed_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form_advanced.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form_advanced.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form_buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form_upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form_validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form_validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/form_wizards.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/form_wizards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/chartjs2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/e_commerce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/echarts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/fixed_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/fixed_sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form_advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form_buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form_upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form_validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/form_wizards.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/general_elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/glyphicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/inbox.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/level2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/other_charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/other_charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/plain_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/plain_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/media_gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/morisjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/mypage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/other_charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/page_403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/page_404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/page_500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/plain_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/pricing_tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/project_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/tables_dynamic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/app/xx.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eletronics/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eletronics/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,37 +61,43 @@
     <session id="-351736581">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="149" />
-          <entry key="py" value="15" />
+          <entry key="html" value="173" />
+          <entry key="js" value="1" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="149" />
-          <entry key="Python" value="15" />
+          <entry key="HTML" value="173" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1422" />
-          <entry key="py" value="907" />
+          <entry key="html" value="3877" />
+          <entry key="py" value="2696" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1422" />
-          <entry key="Python" value="907" />
+          <entry key="HTML" value="3877" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="2696" />
         </counts>
       </usages-collector>
     </session>
@@ -75,42 +105,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/invoice.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/app/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" selection-start-line="46" selection-end-line="47" />
+            <state relative-caret-position="629">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/app/all_message.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="702">
+              <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
               <folding>
-                <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/form_buttons.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#form#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,36 +138,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../vendors/dropzone/dist/min/dropzone.min.js</find>
-      <find>src=&quot;images/img.jpg&quot;</find>
-      <find>../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js</find>
-      <find>../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css</find>
-      <find>../vendors/pnotify/dist/pnotify.css</find>
-      <find>../vendors/pnotify/dist/pnotify.buttons.css</find>
-      <find>../vendors/pnotify/dist/pnotify.nonblock.css</find>
-      <find>../vendors/pnotify/dist/pnotify.js</find>
-      <find>../vendors/pnotify/dist/pnotify.nonblock.js</find>
-      <find>../vendors/pnotify/dist/pnotify.buttons.js</find>
-      <find>{% static 'app/production/images/img.jpg'%}</find>
-      <find>href=&quot;echarts.html&quot;</find>
-      <find>href=&quot;login.html&quot;</find>
-      <find>../vendors/skycons/skycons.js</find>
-      <find>../vendors/Flot/jquery.flot.resize.js</find>
-      <find>custom</find>
-      <find>{% staitc 'app/vendor</find>
-      <find>{% static 'vendors/Flot/jquery.flot.stack.js' %}</find>
-      <find>../vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js</find>
-      <find>src={% static 'app/production/images/img.jpg'%}</find>
-      <find>font-awesome</find>
-      <find>&lt;title&gt;Gentelella Alela! | &lt;/title&gt;</find>
-      <find>map</find>
-      <find>jquery</find>
-      <find>&lt;li&gt;&lt;a href=&quot;{% url 'index2' %}&quot;&gt;Dashboard2&lt;/a&gt;&lt;/li&gt;</find>
-      <find>favicon</find>
-      <find>login</find>
-      <find>logout</find>
-      <find>col-md-6 col</find>
       <find>Gentelella</find>
+      <find>nav navbar-right&quot;</find>
+      <find>{% mem</find>
+      <find>index</find>
+      <find>member.user_id</find>
+      <find>row tile_count</find>
+      <find>menu_toggle</find>
+      <find>Live</find>
+      <find>Caffeine</find>
+      <find>home</find>
+      <find>wizard_ver</find>
+      <find>Logout</find>
+      <find>favicon</find>
+      <find>mypa</find>
+      <find>Forms</find>
+      <find>app ve</find>
+      <find>app ver</find>
+      <find>jquery.flot.js</find>
+      <find>mypage</find>
+      <find>pre</find>
+      <find>col-md-8</find>
+      <find>6</find>
+      <find>10</find>
+      <find>logout</find>
+      <find>live</find>
+      <find>h</find>
+      <find>layout</find>
+      <find>요청하기</find>
+      <find>all</find>
+      <find>DEfa</find>
     </findStrings>
     <replaceStrings>
       <replace>{% static 'app/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js'%}</replace>
@@ -213,7 +224,6 @@
         <option value="$PROJECT_DIR$/app/templates/app/index2.html" />
         <option value="$PROJECT_DIR$/app/templates/app/widgets.html" />
         <option value="$PROJECT_DIR$/app/templates/app/profile.html" />
-        <option value="$PROJECT_DIR$/app/templates/app/calendar.html" />
         <option value="$PROJECT_DIR$/app/templates/app/chartjs.html" />
         <option value="$PROJECT_DIR$/app/templates/app/e_commerce.html" />
         <option value="$PROJECT_DIR$/app/templates/app/fixed_sidebar.html" />
@@ -227,31 +237,36 @@
         <option value="$PROJECT_DIR$/app/templates/app/tables_dynamic.html" />
         <option value="$PROJECT_DIR$/app/templates/app/typography.html" />
         <option value="$PROJECT_DIR$/app/templates/app/map.html" />
-        <option value="$PROJECT_DIR$/app/templates/app/mypage.html" />
         <option value="$PROJECT_DIR$/eletronics/urls.py" />
         <option value="$PROJECT_DIR$/eletronics/settings.py" />
-        <option value="$PROJECT_DIR$/app/templates/app/register.html" />
-        <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/app/templates/app/login.html" />
-        <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/templates/app/form.html" />
         <option value="$PROJECT_DIR$/app/templates/app/form_advanced.html" />
         <option value="$PROJECT_DIR$/app/templates/app/form_validation.html" />
-        <option value="$PROJECT_DIR$/app/templates/app/form_wizards.html" />
         <option value="$PROJECT_DIR$/app/templates/app/form_upload.html" />
         <option value="$PROJECT_DIR$/app/templates/app/form_buttons.html" />
         <option value="$PROJECT_DIR$/app/templates/app/plain_page.html" />
         <option value="$PROJECT_DIR$/app/templates/app/fixed_footer.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/calendar.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/form_wizards.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/change.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/mypage.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/send.html" />
         <option value="$PROJECT_DIR$/app/templates/app/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/register.html" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/urls.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/contact.html" />
+        <option value="$PROJECT_DIR$/app/templates/app/login.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/all_message.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="154" />
+    <option name="y" value="-942" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -261,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,40 +311,6 @@
               <item name="eletronics" type="b2602c69:ProjectViewProjectNode" />
               <item name="eletronics" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eletronics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eletronics" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eletronics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eletronics" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eletronics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eletronics" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eletronics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eletronics" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -353,11 +333,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/eletronics - 복사본" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -387,13 +368,20 @@
       <option name="presentableId" value="Default" />
       <updated>1547875638643</updated>
     </task>
+    <task id="LOCAL-00001" summary="good">
+      <created>1548136810720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548136810720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.170706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +392,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2019544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14766558" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -434,194 +422,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="good" />
+    <option name="LAST_COMMIT_MESSAGE" value="good" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/app/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/chartjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="277" column="90" lean-forward="true" selection-start-line="277" selection-start-column="90" selection-end-line="277" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/chartjs2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="479" column="7" lean-forward="true" selection-start-line="479" selection-start-column="7" selection-end-line="479" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="383" column="34" selection-start-line="383" selection-start-column="34" selection-end-line="383" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/e_commerce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1139">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/echarts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="673" lean-forward="true" selection-start-line="673" selection-end-line="673" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/fixed_sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/general_elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/glyphicons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="242" column="98" selection-start-line="242" selection-start-column="98" selection-end-line="242" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/icons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="123" column="78" selection-start-line="123" selection-start-column="78" selection-end-line="123" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/inbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="457" column="104" lean-forward="true" selection-start-line="457" selection-start-column="104" selection-end-line="457" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/contacts.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/e_commerce.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/echarts.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/fixed_sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/general_elements.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/glyphicons.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/icons.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/inbox.html" />
     <entry file="file://$PROJECT_DIR$/app/templates/app/index2.html" />
     <entry file="file://$PROJECT_DIR$/app/templates/app/index3.html" />
-    <entry file="file://$PROJECT_DIR$/app/templates/app/level2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/media_gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="337" column="45" lean-forward="true" selection-start-line="337" selection-start-column="45" selection-end-line="337" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/morisjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="244" column="98" selection-start-line="244" selection-start-column="98" selection-end-line="244" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/other_charts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="448" column="30" lean-forward="true" selection-start-line="448" selection-start-column="30" selection-end-line="448" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/page_403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/page_404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/page_500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/pricing_tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="319" column="120" selection-start-line="319" selection-start-column="120" selection-end-line="319" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/project_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3247">
-          <caret line="244" column="98" selection-start-line="244" selection-start-column="98" selection-end-line="244" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/tables_dynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23341">
-          <caret line="250" column="98" selection-start-line="250" selection-start-column="98" selection-end-line="250" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/typography.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394">
-          <caret line="242" column="98" selection-start-line="242" selection-start-column="98" selection-end-line="242" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/widgets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="914" column="9" lean-forward="true" selection-start-line="914" selection-start-column="9" selection-end-line="914" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/xx.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/level2.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/media_gallery.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/morisjs.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/other_charts.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/page_403.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/page_404.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/page_500.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/pricing_tables.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/profile.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/project_detail.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/projects.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/tables.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/tables_dynamic.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/typography.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/widgets.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/xx.html" />
     <entry file="file://$PROJECT_DIR$/app/templates/app/map.html" />
     <entry file="file://$PROJECT_DIR$/eletronics/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -630,30 +461,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <marker date="1548133061713" expanded="true" signature="85:90" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/mypage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form_advanced.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form_validation.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form_upload.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/fixed_footer.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/plain_page.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/invoice.html" />
     <entry file="file://$PROJECT_DIR$/eletronics/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -661,104 +475,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
+    <entry file="file://$PROJECT_DIR$/app/templates/app/calendar.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form_wizards.html" />
+    <entry file="file://$PROJECT_DIR$/app/templates/app/form_buttons.html" />
+    <entry file="file://$PROJECT_DIR$/app/static/app/vendors/Flot/jquery.flot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
-        </state>
+        <state relative-caret-position="-2040" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
+    <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="176" column="44" lean-forward="true" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <marker date="1548134170450" expanded="true" signature="3656:4814" ph="..." />
-            <marker date="1548134170450" expanded="true" signature="4834:4839" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="265" column="57" selection-start-line="265" selection-start-column="57" selection-end-line="265" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form_advanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="68" column="72" selection-start-line="68" selection-start-column="72" selection-end-line="68" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form_validation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form_wizards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="58" column="72" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/fixed_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/plain_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="72" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/invoice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/form_buttons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#form#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="526">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/mypage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/send.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7191">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/all_message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
           <folding>
-            <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
